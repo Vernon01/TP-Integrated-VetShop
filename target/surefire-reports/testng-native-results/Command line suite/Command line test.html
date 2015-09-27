@@ -1,0 +1,324 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>49/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 20 02:36:10 SAST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>20 seconds (20297 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.BookingServiceTest.create()'><b>create</b><br>Test class: za.ac.cput.AshDyani.services.BookingServiceTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.BookingServiceTest@d6fe6</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.CustomerServiceTest.create()'><b>create</b><br>Test class: za.ac.cput.AshDyani.services.CustomerServiceTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.CustomerServiceTest@1359ed8</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.DoctorServiceTest.create()'><b>create</b><br>Test class: za.ac.cput.AshDyani.services.DoctorServiceTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.DoctorServiceTest@10c2d26</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.MedicationServiceTest.create()'><b>create</b><br>Test class: za.ac.cput.AshDyani.services.MedicationServiceTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.MedicationServiceTest@1bb8443</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.PrescriptionServiceTest.create()'><b>create</b><br>Test class: za.ac.cput.AshDyani.services.PrescriptionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.PrescriptionServiceTest@d7f7e0</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.ServicesServiceTest.create()'><b>create</b><br>Test class: za.ac.cput.AshDyani.services.ServicesServiceTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.ServicesServiceTest@1e202ad</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.EmployeeServiceTest.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.services.EmployeeServiceTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.EmployeeServiceTest@1070868</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.InvoiceServiceTest.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.services.InvoiceServiceTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.InvoiceServiceTest@1445d7f</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.services.PetServicesTest.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.services.PetServicesTest</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.services.PetServicesTest@b67034</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestBookingRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestBookingRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestCustomerRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestCustomerRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestDoctorRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestDoctorRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestEmployeeRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestEmployeeRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestInvoiceRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestInvoiceRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestMedicationRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestMedicationRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPetRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestPetRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPetRepository@2675e1</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestPrescriptionRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestServiceRepository.testCreate()'><b>testCreate</b><br>Test class: za.ac.cput.AshDyani.repository.TestServiceRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestBookingRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestBookingRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestCustomerRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestCustomerRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestDoctorRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestDoctorRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestEmployeeRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestEmployeeRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestInvoiceRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestInvoiceRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestMedicationRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestMedicationRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPetRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestPetRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPetRepository@2675e1</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestPrescriptionRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestServiceRepository.testDelete()'><b>testDelete</b><br>Test class: za.ac.cput.AshDyani.repository.TestServiceRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestBookingRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestBookingRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestCustomerRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestCustomerRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestDoctorRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestDoctorRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestEmployeeRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestEmployeeRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestInvoiceRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestInvoiceRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestMedicationRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestMedicationRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPetRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestPetRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPetRepository@2675e1</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestPrescriptionRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestServiceRepository.testRead()'><b>testRead</b><br>Test class: za.ac.cput.AshDyani.repository.TestServiceRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestBookingRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestBookingRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestCustomerRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestCustomerRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestDoctorRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestDoctorRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestEmployeeRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestEmployeeRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestInvoiceRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestInvoiceRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestMedicationRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestMedicationRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPetRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestPetRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPetRepository@2675e1</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestPrescriptionRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841</td></tr>
+<tr>
+<td title='za.ac.cput.AshDyani.repository.TestServiceRepository.testUpdate()'><b>testUpdate</b><br>Test class: za.ac.cput.AshDyani.repository.TestServiceRepository</td>
+<td></td>
+<td>0</td>
+<td>za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b</td></tr>
+</table><p>
+</body>
+</html>

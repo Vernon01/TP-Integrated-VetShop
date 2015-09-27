@@ -1,0 +1,2117 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Command_line_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Command_line_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Command_line_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Command_line_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Command_line_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Command_line_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Command_line_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">49 methods,   49 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.ServicesServiceTest" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.PrescriptionServiceTest" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.CustomerServiceTest" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.MedicationServiceTest" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.BookingServiceTest" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.DoctorServiceTest" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestCustomerRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestServiceRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestEmployeeRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.EmployeeServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPetRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestInvoiceRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPrescription_LineRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestMedicationRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.InvoiceServiceTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestDoctorRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPrescriptionRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.services.PetServicesTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestBookingRepository" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPetRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestMedicationRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPrescriptionRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPrescription_LineRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestInvoiceRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestDoctorRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestCustomerRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestServiceRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestEmployeeRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestBookingRepository" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestInvoiceRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestEmployeeRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestServiceRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestMedicationRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestBookingRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestCustomerRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPrescriptionRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPrescription_LineRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPetRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestDoctorRepository" hash-for-method="testRead">testRead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestDoctorRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestCustomerRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPrescriptionRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPetRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestPrescription_LineRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestBookingRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestInvoiceRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestMedicationRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestEmployeeRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="za.ac.cput.AshDyani.repository.TestServiceRepository" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestEmployeeRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.MedicationServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.BookingServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestInvoiceRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestDoctorRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.CustomerServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestServiceRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.InvoiceServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestMedicationRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestBookingRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.PetServicesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestPrescriptionRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestPetRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.ServicesServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.DoctorServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestCustomerRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.EmployeeServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.services.PrescriptionServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRead">
+                  </a> <!-- testRead -->
+                  <span class="method-name">testRead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestCustomerRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestEmployeeRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestBookingRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestPrescriptionRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestPetRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestPrescription_LineRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestInvoiceRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestDoctorRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestServiceRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.repository.TestMedicationRepository&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.domain.FactoryTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.CustomerServiceTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.PrescriptionServiceTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.BookingServiceTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.ServicesServiceTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.DoctorServiceTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.InvoiceServiceTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.EmployeeServiceTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.MedicationServiceTest&quot;/&gt;
+      &lt;class name=&quot;za.ac.cput.AshDyani.services.PetServicesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (20 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(49);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCreate')
+data.setCell(0, 2, 'za.ac.cput.AshDyani.repository.TestEmployeeRepository')
+data.setCell(0, 3, 771);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCreate')
+data.setCell(1, 2, 'za.ac.cput.AshDyani.repository.TestDoctorRepository')
+data.setCell(1, 3, 400);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'create')
+data.setCell(2, 2, 'za.ac.cput.AshDyani.services.BookingServiceTest')
+data.setCell(2, 3, 262);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDelete')
+data.setCell(3, 2, 'za.ac.cput.AshDyani.repository.TestBookingRepository')
+data.setCell(3, 3, 147);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'create')
+data.setCell(4, 2, 'za.ac.cput.AshDyani.services.DoctorServiceTest')
+data.setCell(4, 3, 145);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDelete')
+data.setCell(5, 2, 'za.ac.cput.AshDyani.repository.TestPrescription_LineRepository')
+data.setCell(5, 3, 98);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testDelete')
+data.setCell(6, 2, 'za.ac.cput.AshDyani.repository.TestCustomerRepository')
+data.setCell(6, 3, 97);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCreate')
+data.setCell(7, 2, 'za.ac.cput.AshDyani.services.EmployeeServiceTest')
+data.setCell(7, 3, 94);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDelete')
+data.setCell(8, 2, 'za.ac.cput.AshDyani.repository.TestPetRepository')
+data.setCell(8, 3, 88);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDelete')
+data.setCell(9, 2, 'za.ac.cput.AshDyani.repository.TestInvoiceRepository')
+data.setCell(9, 3, 88);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testDelete')
+data.setCell(10, 2, 'za.ac.cput.AshDyani.repository.TestEmployeeRepository')
+data.setCell(10, 3, 87);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testUpdate')
+data.setCell(11, 2, 'za.ac.cput.AshDyani.repository.TestPrescription_LineRepository')
+data.setCell(11, 3, 83);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCreate')
+data.setCell(12, 2, 'za.ac.cput.AshDyani.repository.TestMedicationRepository')
+data.setCell(12, 3, 76);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCreate')
+data.setCell(13, 2, 'za.ac.cput.AshDyani.repository.TestBookingRepository')
+data.setCell(13, 3, 74);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCreate')
+data.setCell(14, 2, 'za.ac.cput.AshDyani.repository.TestPrescription_LineRepository')
+data.setCell(14, 3, 73);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCreate')
+data.setCell(15, 2, 'za.ac.cput.AshDyani.repository.TestServiceRepository')
+data.setCell(15, 3, 72);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'create')
+data.setCell(16, 2, 'za.ac.cput.AshDyani.services.PrescriptionServiceTest')
+data.setCell(16, 3, 71);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'create')
+data.setCell(17, 2, 'za.ac.cput.AshDyani.services.MedicationServiceTest')
+data.setCell(17, 3, 71);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testDelete')
+data.setCell(18, 2, 'za.ac.cput.AshDyani.repository.TestDoctorRepository')
+data.setCell(18, 3, 64);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testRead')
+data.setCell(19, 2, 'za.ac.cput.AshDyani.repository.TestBookingRepository')
+data.setCell(19, 3, 64);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCreate')
+data.setCell(20, 2, 'za.ac.cput.AshDyani.repository.TestInvoiceRepository')
+data.setCell(20, 3, 63);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCreate')
+data.setCell(21, 2, 'za.ac.cput.AshDyani.repository.TestPetRepository')
+data.setCell(21, 3, 60);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'create')
+data.setCell(22, 2, 'za.ac.cput.AshDyani.services.CustomerServiceTest')
+data.setCell(22, 3, 58);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testDelete')
+data.setCell(23, 2, 'za.ac.cput.AshDyani.repository.TestPrescriptionRepository')
+data.setCell(23, 3, 55);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testDelete')
+data.setCell(24, 2, 'za.ac.cput.AshDyani.repository.TestMedicationRepository')
+data.setCell(24, 3, 54);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testDelete')
+data.setCell(25, 2, 'za.ac.cput.AshDyani.repository.TestServiceRepository')
+data.setCell(25, 3, 53);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCreate')
+data.setCell(26, 2, 'za.ac.cput.AshDyani.repository.TestCustomerRepository')
+data.setCell(26, 3, 52);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testRead')
+data.setCell(27, 2, 'za.ac.cput.AshDyani.repository.TestCustomerRepository')
+data.setCell(27, 3, 52);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCreate')
+data.setCell(28, 2, 'za.ac.cput.AshDyani.repository.TestPrescriptionRepository')
+data.setCell(28, 3, 51);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testUpdate')
+data.setCell(29, 2, 'za.ac.cput.AshDyani.repository.TestCustomerRepository')
+data.setCell(29, 3, 50);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCreate')
+data.setCell(30, 2, 'za.ac.cput.AshDyani.services.PetServicesTest')
+data.setCell(30, 3, 50);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'create')
+data.setCell(31, 2, 'za.ac.cput.AshDyani.services.ServicesServiceTest')
+data.setCell(31, 3, 49);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testCreate')
+data.setCell(32, 2, 'za.ac.cput.AshDyani.services.InvoiceServiceTest')
+data.setCell(32, 3, 46);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testRead')
+data.setCell(33, 2, 'za.ac.cput.AshDyani.repository.TestMedicationRepository')
+data.setCell(33, 3, 39);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testUpdate')
+data.setCell(34, 2, 'za.ac.cput.AshDyani.repository.TestMedicationRepository')
+data.setCell(34, 3, 36);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testRead')
+data.setCell(35, 2, 'za.ac.cput.AshDyani.repository.TestEmployeeRepository')
+data.setCell(35, 3, 29);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testUpdate')
+data.setCell(36, 2, 'za.ac.cput.AshDyani.repository.TestBookingRepository')
+data.setCell(36, 3, 20);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testRead')
+data.setCell(37, 2, 'za.ac.cput.AshDyani.repository.TestPrescriptionRepository')
+data.setCell(37, 3, 19);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testUpdate')
+data.setCell(38, 2, 'za.ac.cput.AshDyani.repository.TestServiceRepository')
+data.setCell(38, 3, 19);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testRead')
+data.setCell(39, 2, 'za.ac.cput.AshDyani.repository.TestPrescription_LineRepository')
+data.setCell(39, 3, 16);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testUpdate')
+data.setCell(40, 2, 'za.ac.cput.AshDyani.repository.TestPrescriptionRepository')
+data.setCell(40, 3, 13);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testRead')
+data.setCell(41, 2, 'za.ac.cput.AshDyani.repository.TestPetRepository')
+data.setCell(41, 3, 12);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testRead')
+data.setCell(42, 2, 'za.ac.cput.AshDyani.repository.TestServiceRepository')
+data.setCell(42, 3, 11);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testUpdate')
+data.setCell(43, 2, 'za.ac.cput.AshDyani.repository.TestEmployeeRepository')
+data.setCell(43, 3, 11);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testRead')
+data.setCell(44, 2, 'za.ac.cput.AshDyani.repository.TestInvoiceRepository')
+data.setCell(44, 3, 10);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testUpdate')
+data.setCell(45, 2, 'za.ac.cput.AshDyani.repository.TestDoctorRepository')
+data.setCell(45, 3, 10);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testUpdate')
+data.setCell(46, 2, 'za.ac.cput.AshDyani.repository.TestPetRepository')
+data.setCell(46, 3, 10);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testUpdate')
+data.setCell(47, 2, 'za.ac.cput.AshDyani.repository.TestInvoiceRepository')
+data.setCell(47, 3, 9);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testRead')
+data.setCell(48, 2, 'za.ac.cput.AshDyani.repository.TestDoctorRepository')
+data.setCell(48, 3, 8);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.BookingServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.BookingServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">16191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.BookingServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16459 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.CustomerServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">16459 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">16459 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">16465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.CustomerServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.CustomerServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16524 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16525 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.DoctorServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">16525 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">16525 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.DoctorServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16532 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">16535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16680 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.DoctorServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16680 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.EmployeeServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">16681 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">16681 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.EmployeeServiceTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">16686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">16686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.EmployeeServiceTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">16780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16781 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.InvoiceServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">16781 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">16781 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.InvoiceServiceTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">16789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">16789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16836 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.InvoiceServiceTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">16836 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.MedicationServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">16836 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">16836 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">16842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.MedicationServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16914 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.MedicationServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16914 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.PetServicesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">16914 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">16914 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.PetServicesTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">16919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">16919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.PetServicesTest.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">16969 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">16970 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.PrescriptionServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">16970 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">16970 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">16977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.PrescriptionServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">16977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17048 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.PrescriptionServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">17048 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.services.ServicesServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">17049 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">17049 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.services.ServicesServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">17053 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">17054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.services.ServicesServiceTest.create() throws java.lang.Exception)</span>
+                <span class="method-start">17103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">17104 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestBookingRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">17104 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">17104 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestBookingRepository.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">17107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">17107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestBookingRepository.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">17181 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestCustomerRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">17182 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">17182 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testCreate() throws java.lang.Exce...)</span>
+                <span class="method-start">17185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">17185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testCreate() throws java.lang.Exce...)</span>
+                <span class="method-start">17237 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestDoctorRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">17237 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">17238 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testCreate() throws java.lang.Except...)</span>
+                <span class="method-start">17241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">17243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testCreate() throws java.lang.Except...)</span>
+                <span class="method-start">17644 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestEmployeeRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">17644 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">17644 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testCreate() throws java.lang.Exce...)</span>
+                <span class="method-start">17648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">17648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testCreate() throws java.lang.Exce...)</span>
+                <span class="method-start">18419 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestInvoiceRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">18419 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">18419 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">18422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">18423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">18486 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestMedicationRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">18487 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">18487 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testCreate() throws java.lang.Ex...)</span>
+                <span class="method-start">18490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">18490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testCreate() throws java.lang.Ex...)</span>
+                <span class="method-start">18566 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPetRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">18566 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">18567 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPetRepository.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">18570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">18571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPetRepository.testCreate() throws java.lang.Exception)</span>
+                <span class="method-start">18631 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPrescriptionRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">18632 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">18632 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testCreate() throws java.lang....)</span>
+                <span class="method-start">18635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">18635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testCreate() throws java.lang....)</span>
+                <span class="method-start">18687 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">18687 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">18687 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testCreate() throws java....)</span>
+                <span class="method-start">18692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">18692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testCreate() throws java....)</span>
+                <span class="method-start">18765 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestServiceRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">18766 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">18766 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestServiceRepository.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">18770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">18771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestServiceRepository.testCreate() throws java.lang.Excep...)</span>
+                <span class="method-start">18843 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestBookingRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestBookingRepository.testRead() throws java.lang.Excepti...)</span>
+                <span class="method-start">18848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">18850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestBookingRepository.testRead() throws java.lang.Excepti...)</span>
+                <span class="method-start">18915 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestCustomerRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testRead() throws java.lang.Except...)</span>
+                <span class="method-start">18916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">18916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testRead() throws java.lang.Except...)</span>
+                <span class="method-start">18968 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestDoctorRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testRead() throws java.lang.Exceptio...)</span>
+                <span class="method-start">18970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">18971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testRead() throws java.lang.Exceptio...)</span>
+                <span class="method-start">18980 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestEmployeeRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testRead() throws java.lang.Except...)</span>
+                <span class="method-start">18980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">18982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testRead() throws java.lang.Except...)</span>
+                <span class="method-start">19011 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestInvoiceRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testRead() throws java.lang.Excepti...)</span>
+                <span class="method-start">19013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">19013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testRead() throws java.lang.Excepti...)</span>
+                <span class="method-start">19024 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestMedicationRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testRead() throws java.lang.Exce...)</span>
+                <span class="method-start">19025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">19026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testRead() throws java.lang.Exce...)</span>
+                <span class="method-start">19065 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPetRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPetRepository.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">19067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">19069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPetRepository.testRead() throws java.lang.Exception)</span>
+                <span class="method-start">19081 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPrescriptionRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testRead() throws java.lang.Ex...)</span>
+                <span class="method-start">19082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">19083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testRead() throws java.lang.Ex...)</span>
+                <span class="method-start">19103 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testRead() throws java.la...)</span>
+                <span class="method-start">19113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">19118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testRead() throws java.la...)</span>
+                <span class="method-start">19135 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestServiceRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestServiceRepository.testRead() throws java.lang.Excepti...)</span>
+                <span class="method-start">19135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRead</span>
+                <span class="method-start">19136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestServiceRepository.testRead() throws java.lang.Excepti...)</span>
+                <span class="method-start">19147 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestBookingRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestBookingRepository.testUpdate() throws java.lang.Excep...)</span>
+                <span class="method-start">19148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestBookingRepository.testUpdate() throws java.lang.Excep...)</span>
+                <span class="method-start">19169 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestCustomerRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testUpdate() throws java.lang.Exce...)</span>
+                <span class="method-start">19170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testUpdate() throws java.lang.Exce...)</span>
+                <span class="method-start">19221 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestDoctorRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testUpdate() throws java.lang.Except...)</span>
+                <span class="method-start">19221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testUpdate() throws java.lang.Except...)</span>
+                <span class="method-start">19232 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestEmployeeRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testUpdate() throws java.lang.Exce...)</span>
+                <span class="method-start">19233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testUpdate() throws java.lang.Exce...)</span>
+                <span class="method-start">19245 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestInvoiceRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testUpdate() throws java.lang.Excep...)</span>
+                <span class="method-start">19245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testUpdate() throws java.lang.Excep...)</span>
+                <span class="method-start">19255 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestMedicationRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testUpdate() throws java.lang.Ex...)</span>
+                <span class="method-start">19255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testUpdate() throws java.lang.Ex...)</span>
+                <span class="method-start">19292 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPetRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPetRepository.testUpdate() throws java.lang.Exception)</span>
+                <span class="method-start">19293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPetRepository.testUpdate() throws java.lang.Exception)</span>
+                <span class="method-start">19304 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPrescriptionRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testUpdate() throws java.lang....)</span>
+                <span class="method-start">19304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19305 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testUpdate() throws java.lang....)</span>
+                <span class="method-start">19318 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testUpdate() throws java....)</span>
+                <span class="method-start">19319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testUpdate() throws java....)</span>
+                <span class="method-start">19402 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestServiceRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestServiceRepository.testUpdate() throws java.lang.Excep...)</span>
+                <span class="method-start">19402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">19403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestServiceRepository.testUpdate() throws java.lang.Excep...)</span>
+                <span class="method-start">19423 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestBookingRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestBookingRepository.testDelete() throws java.lang.Excep...)</span>
+                <span class="method-start">19423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">19424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">19572 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestBookingRepository.testDelete() throws java.lang.Excep...)</span>
+                <span class="method-start">19572 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestCustomerRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testDelete() throws java.lang.Exce...)</span>
+                <span class="method-start">19572 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">19573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">19670 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testDelete() throws java.lang.Exce...)</span>
+                <span class="method-start">19670 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestDoctorRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testDelete() throws java.lang.Except...)</span>
+                <span class="method-start">19671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">19672 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testDelete() throws java.lang.Except...)</span>
+                <span class="method-start">19736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">19737 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestEmployeeRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testDelete() throws java.lang.Exce...)</span>
+                <span class="method-start">19737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">19738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">19825 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testDelete() throws java.lang.Exce...)</span>
+                <span class="method-start">19825 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestInvoiceRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testDelete() throws java.lang.Excep...)</span>
+                <span class="method-start">19826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">19826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">19915 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testDelete() throws java.lang.Excep...)</span>
+                <span class="method-start">19915 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestMedicationRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testDelete() throws java.lang.Ex...)</span>
+                <span class="method-start">19915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">19916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">19970 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testDelete() throws java.lang.Ex...)</span>
+                <span class="method-start">19970 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPetRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPetRepository.testDelete() throws java.lang.Exception)</span>
+                <span class="method-start">19971 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">19971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">20060 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPetRepository.testDelete() throws java.lang.Exception)</span>
+                <span class="method-start">20060 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPrescriptionRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testDelete() throws java.lang....)</span>
+                <span class="method-start">20061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">20061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testDelete() throws java.lang....)</span>
+                <span class="method-start">20116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">20117 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestPrescription_LineRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testDelete() throws java....)</span>
+                <span class="method-start">20117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">20118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">20216 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testDelete() throws java....)</span>
+                <span class="method-start">20216 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">za.ac.cput.AshDyani.repository.TestServiceRepository</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void za.ac.cput.AshDyani.repository.TestServiceRepository.testDelete() throws java.lang.Excep...)</span>
+                <span class="method-start">20217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">20217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">20271 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void za.ac.cput.AshDyani.repository.TestServiceRepository.testDelete() throws java.lang.Excep...)</span>
+                <span class="method-start">20271 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

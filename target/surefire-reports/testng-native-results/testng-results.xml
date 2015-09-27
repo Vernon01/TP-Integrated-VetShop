@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="49" passed="49">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="20297" started-at="2015-05-20T00:36:10Z" finished-at="2015-05-20T00:36:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20297" started-at="2015-05-20T00:36:10Z" finished-at="2015-05-20T00:36:30Z">
+      <class name="za.ac.cput.AshDyani.repository.TestPrescription_LineRepository">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2015-05-20T02:36:29Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="testCreate" duration-ms="73" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="5" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="testRead" duration-ms="16" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="testUpdate" duration-ms="83" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="testDelete" duration-ms="98" started-at="2015-05-20T02:36:30Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescription_LineRepository@364841]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescription_LineRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestPrescription_LineRepository -->
+      <class name="za.ac.cput.AshDyani.repository.TestEmployeeRepository">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="4" started-at="2015-05-20T02:36:28Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="testCreate" duration-ms="771" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="testRead" duration-ms="29" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestEmployeeRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="testUpdate" duration-ms="11" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestEmployeeRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="testDelete" duration-ms="87" started-at="2015-05-20T02:36:30Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestEmployeeRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestEmployeeRepository@1ad8c79]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestEmployeeRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestEmployeeRepository -->
+      <class name="za.ac.cput.AshDyani.services.BookingServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.BookingServiceTest@d6fe6]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="15" started-at="2015-05-20T02:36:10Z" finished-at="2015-05-20T02:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.BookingServiceTest@d6fe6]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="16171" started-at="2015-05-20T02:36:10Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.BookingServiceTest@d6fe6]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.BookingServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="create()[pri:0, instance:za.ac.cput.AshDyani.services.BookingServiceTest@d6fe6]" name="create" duration-ms="262" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.BookingServiceTest@d6fe6]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="5" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.BookingServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.BookingServiceTest@d6fe6]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.services.BookingServiceTest -->
+      <class name="za.ac.cput.AshDyani.services.MedicationServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.MedicationServiceTest@1bb8443]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.MedicationServiceTest@1bb8443]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="create()[pri:0, instance:za.ac.cput.AshDyani.services.MedicationServiceTest@1bb8443]" name="create" duration-ms="71" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.MedicationServiceTest@1bb8443]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.MedicationServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.MedicationServiceTest@1bb8443]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.MedicationServiceTest@1bb8443]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.MedicationServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- za.ac.cput.AshDyani.services.MedicationServiceTest -->
+      <class name="za.ac.cput.AshDyani.repository.TestPrescriptionRepository">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2015-05-20T02:36:29Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="testCreate" duration-ms="51" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="testRead" duration-ms="19" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="9" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="testUpdate" duration-ms="13" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="testDelete" duration-ms="55" started-at="2015-05-20T02:36:30Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPrescriptionRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPrescriptionRepository@13da22c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestPrescriptionRepository -->
+      <class name="za.ac.cput.AshDyani.services.CustomerServiceTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.CustomerServiceTest@1359ed8]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="6" started-at="2015-05-20T02:36:26Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.CustomerServiceTest@1359ed8]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.CustomerServiceTest@1359ed8]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.CustomerServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="create()[pri:0, instance:za.ac.cput.AshDyani.services.CustomerServiceTest@1359ed8]" name="create" duration-ms="58" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.CustomerServiceTest@1359ed8]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.CustomerServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.CustomerServiceTest@1359ed8]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.services.CustomerServiceTest -->
+      <class name="za.ac.cput.AshDyani.services.PrescriptionServiceTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.PrescriptionServiceTest@d7f7e0]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="7" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.PrescriptionServiceTest@d7f7e0]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="create()[pri:0, instance:za.ac.cput.AshDyani.services.PrescriptionServiceTest@d7f7e0]" name="create" duration-ms="71" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.PrescriptionServiceTest@d7f7e0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.PrescriptionServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.PrescriptionServiceTest@d7f7e0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.PrescriptionServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.PrescriptionServiceTest@d7f7e0]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.services.PrescriptionServiceTest -->
+      <class name="za.ac.cput.AshDyani.services.DoctorServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.DoctorServiceTest@10c2d26]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.DoctorServiceTest@10c2d26]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="6" started-at="2015-05-20T02:36:26Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.DoctorServiceTest@10c2d26]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.DoctorServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="create()[pri:0, instance:za.ac.cput.AshDyani.services.DoctorServiceTest@10c2d26]" name="create" duration-ms="145" started-at="2015-05-20T02:36:26Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.DoctorServiceTest@10c2d26]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.DoctorServiceTest@10c2d26]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.DoctorServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- za.ac.cput.AshDyani.services.DoctorServiceTest -->
+      <class name="za.ac.cput.AshDyani.repository.TestServiceRepository">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="4" started-at="2015-05-20T02:36:29Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestServiceRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="testCreate" duration-ms="72" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestServiceRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestServiceRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="testRead" duration-ms="11" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestServiceRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestServiceRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestServiceRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="testUpdate" duration-ms="19" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestServiceRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestServiceRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestServiceRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="testDelete" duration-ms="53" started-at="2015-05-20T02:36:30Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestServiceRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestServiceRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestServiceRepository@1606c0b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestServiceRepository -->
+      <class name="za.ac.cput.AshDyani.services.PetServicesTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.PetServicesTest@b67034]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.PetServicesTest@b67034]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.PetServicesTest@b67034]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.PetServicesTest.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.services.PetServicesTest@b67034]" name="testCreate" duration-ms="50" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.PetServicesTest@b67034]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.PetServicesTest.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.PetServicesTest@b67034]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.services.PetServicesTest -->
+      <class name="za.ac.cput.AshDyani.repository.TestInvoiceRepository">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2015-05-20T02:36:28Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="testCreate" duration-ms="63" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="testRead" duration-ms="10" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestInvoiceRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="testUpdate" duration-ms="9" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestInvoiceRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="testDelete" duration-ms="88" started-at="2015-05-20T02:36:30Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestInvoiceRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestInvoiceRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestInvoiceRepository@44d69d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestInvoiceRepository -->
+      <class name="za.ac.cput.AshDyani.repository.TestBookingRepository">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestBookingRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="testCreate" duration-ms="74" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestBookingRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestBookingRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="testRead" duration-ms="64" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestBookingRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestBookingRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestBookingRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="testUpdate" duration-ms="20" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestBookingRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestBookingRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestBookingRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="testDelete" duration-ms="147" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestBookingRepository.testUpdate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestBookingRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestBookingRepository@3f5566]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestBookingRepository -->
+      <class name="za.ac.cput.AshDyani.services.ServicesServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.ServicesServiceTest@1e202ad]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.ServicesServiceTest@1e202ad]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="4" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.ServicesServiceTest@1e202ad]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.ServicesServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="create()[pri:0, instance:za.ac.cput.AshDyani.services.ServicesServiceTest@1e202ad]" name="create" duration-ms="49" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.ServicesServiceTest@1e202ad]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.ServicesServiceTest.create() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.ServicesServiceTest@1e202ad]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.services.ServicesServiceTest -->
+      <class name="za.ac.cput.AshDyani.repository.TestDoctorRepository">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="testCreate" duration-ms="400" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="testRead" duration-ms="8" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestDoctorRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="testUpdate" duration-ms="10" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestDoctorRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="testDelete" duration-ms="64" started-at="2015-05-20T02:36:30Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestDoctorRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestDoctorRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestDoctorRepository@79c292]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestDoctorRepository -->
+      <class name="za.ac.cput.AshDyani.repository.TestMedicationRepository">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2015-05-20T02:36:28Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="testCreate" duration-ms="76" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="testRead" duration-ms="39" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestMedicationRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="testUpdate" duration-ms="36" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestMedicationRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="testDelete" duration-ms="54" started-at="2015-05-20T02:36:30Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestMedicationRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestMedicationRepository@14c508a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestMedicationRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestMedicationRepository -->
+      <class name="za.ac.cput.AshDyani.repository.TestPetRepository">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2015-05-20T02:36:28Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPetRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="testCreate" duration-ms="60" started-at="2015-05-20T02:36:28Z" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPetRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPetRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="testRead" duration-ms="12" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPetRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPetRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPetRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="testUpdate" duration-ms="10" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPetRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPetRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPetRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="testDelete" duration-ms="88" started-at="2015-05-20T02:36:30Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestPetRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestPetRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestPetRepository@2675e1]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestPetRepository -->
+      <class name="za.ac.cput.AshDyani.services.EmployeeServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.EmployeeServiceTest@1070868]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.EmployeeServiceTest@1070868]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.services.EmployeeServiceTest@1070868]" name="testCreate" duration-ms="94" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.EmployeeServiceTest@1070868]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.EmployeeServiceTest.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.EmployeeServiceTest@1070868]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.EmployeeServiceTest.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.EmployeeServiceTest@1070868]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.services.EmployeeServiceTest -->
+      <class name="za.ac.cput.AshDyani.repository.TestCustomerRepository">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="testCreate" duration-ms="52" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRead()[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="testRead" duration-ms="52" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestCustomerRepository.testCreate" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRead -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testRead() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="testUpdate" duration-ms="50" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestCustomerRepository.testRead" finished-at="2015-05-20T02:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testUpdate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2015-05-20T02:36:29Z" finished-at="2015-05-20T02:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="testDelete" duration-ms="97" started-at="2015-05-20T02:36:29Z" depends-on-methods="za.ac.cput.AshDyani.repository.TestCustomerRepository.testUpdate" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.repository.TestCustomerRepository@1147d0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:30Z" finished-at="2015-05-20T02:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.repository.TestCustomerRepository.testDelete() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- za.ac.cput.AshDyani.repository.TestCustomerRepository -->
+      <class name="za.ac.cput.AshDyani.services.InvoiceServiceTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:za.ac.cput.AshDyani.services.InvoiceServiceTest@1445d7f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="8" started-at="2015-05-20T02:36:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.InvoiceServiceTest@1445d7f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.InvoiceServiceTest@1445d7f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.InvoiceServiceTest.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:za.ac.cput.AshDyani.services.InvoiceServiceTest@1445d7f]" name="testCreate" duration-ms="46" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:za.ac.cput.AshDyani.services.InvoiceServiceTest@1445d7f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void za.ac.cput.AshDyani.services.InvoiceServiceTest.testCreate() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:za.ac.cput.AshDyani.services.InvoiceServiceTest@1445d7f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-05-20T02:36:27Z" finished-at="2015-05-20T02:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- za.ac.cput.AshDyani.services.InvoiceServiceTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
